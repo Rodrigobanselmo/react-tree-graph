@@ -55,6 +55,9 @@ export default class Node extends React.PureComponent {
 				<text dx={offset + 0.5} dy={5} {...wrappedTextProps}>
 					{this.props[this.props.labelProp]}
 				</text>
+				<text dx={offset + 2.5} dy={10} {...wrappedTextProps}>
+					{this.props[this.props.labelProp]}
+				</text>
 			</g>);
 	}
 }
