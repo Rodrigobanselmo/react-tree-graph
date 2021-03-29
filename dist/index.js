@@ -174,8 +174,21 @@
 					'text',
 					_extends(
 						{
+							dx: offset + 2.0,
+							dy: 13,
+							fontSize:10,
+						},
+						wrappedTextProps
+					),
+					this.props['type']
+				),
+				/*#__PURE__*/ React.createElement(
+					'text',
+					_extends(
+						{
 							dx: offset + 0.5,
-							dy: 5,
+							fontSize:16,
+							dy: -2,
 						},
 						wrappedTextProps
 					),
