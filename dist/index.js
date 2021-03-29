@@ -192,7 +192,7 @@
 						},
 						wrappedTextProps
 					),
-					this.props[this.props.labelProp]
+					this.props[this.props.labelProp].length > 16 ? `${this.props[this.props.labelProp].slice(0,14)}...` : this.props[this.props.labelProp]
 				)
 			);
 		}
